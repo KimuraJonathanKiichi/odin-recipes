@@ -2,10 +2,25 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .oya {
+    display: block;
     width: 200px;
     height: auto;
+    margin: auto;
 }
 .top{
     background-color: black;
-    color: skyblue;
+    color: white;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+ul li, #ingredients, #steps{
+    font-family: 'Courier New', Courier, monospace;
+}
+#ingredients, #steps{
+    border: 1px solid black;
+    padding: 2px 8px;
+}
+#steps{
+    margin: 8px 0px;
 }
